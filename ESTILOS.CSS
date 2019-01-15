@@ -1,0 +1,90 @@
+@charset "UTF 8";
+
+h1 {
+    text-shadow: 5px 0px red;
+    color: rgb(255, 213, 158);
+    font-family: cursive ;
+    text-align: center
+}
+
+body{
+    background-color: rgb(255, 238, 145)
+}
+
+header{
+    background-color: rgb(255, 160, 106)
+}
+
+table{
+    width: 100%;
+    background-color: rgb(255, 252, 82);
+    color: rgb(255, 172, 17);
+    text-align: center;
+    font-family: sans-serif;
+    border: 5px solid rgb(182, 0, 0);
+  }
+
+  p#Amarillo {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    width: 38%;
+    height: 28%;
+    border: hsl(60, 64%, 55%) 3px solid;
+    background-color:  hsl(60, 100%, 75%);
+    text-align: left;
+    color: rgb(238, 218, 37)
+
+  }
+  
+  p#Rojo {
+    text-decoration: overline red;  
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    right: 25%;
+    width: 38%;
+    height: 28%;
+    z-index: 1;
+    border: rgb(182, 0, 0) 3px solid;
+    background-color: rgb(255, 160, 106) ;
+    text-align: center;
+    letter-spacing: ;
+    word-spacing: 2px;
+    color: rgb(182, 0, 0) ;
+    padding-left: 5px;
+    padding-right:5px
+  }
+  
+  p#Azul {
+    position: absolute;
+    top: 40%;
+    right: 5%;
+    width: 38%;
+    height: 28%;
+    border: hsl(202, 60%, 48%) 4px solid;
+    background-color: hsl(182, 58%, 76%);
+    text-align: right;
+    color: rgb(255, 172, 17)
+  }
+  
+ol {
+    color: blue
+}
+nav#text{
+    background-color: rgb(255, 160, 106);
+    bottom: 10%;
+    width:100%
+    
+}
+nav#C1{
+    background-color: rgb(204, 204, 118);
+    color: rgb(255, 172, 17);
+    width: 100%;
+    text-align: center
+}
+footer{
+    position: absolute;
+    top :80%
+}
+
